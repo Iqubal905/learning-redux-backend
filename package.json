@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "build": "npx tailwindcss -i ./views/public/css/input.css -o ./views/public/css/output.css --watch"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +18,5 @@
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.2",
     "nodemon": "^3.0.2"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.3.6"
   }
 }
