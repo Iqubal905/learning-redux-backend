@@ -7,8 +7,8 @@ const { putRoutes } = require("./putRoutes");
 const { postRoutes } = require("./postRoutes");
 //api routes
 router.use("/api/get", getRoutes);
-router.use("/api/post", putRoutes);
-router.use("/api/put", postRoutes);
+router.use("/api/post", postRoutes);
+router.use("/api/put", putRoutes);
 //html file routes
 router.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../views/public/index.html"));
